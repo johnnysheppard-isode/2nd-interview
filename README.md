@@ -20,7 +20,7 @@ Prepare your environment as follows:
 In order to run the script, run the following command:
 
 ```bash
-python -m flask --app main run
+python -m flask --app main run --host=0.0.0.0
 ```
 
 You should then be able to browse to <http://127.0.0.1:5000> to see the
